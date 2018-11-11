@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome to spring - Welcome Page</h1>
-	<h3>${id}</h3>
-	<h3>${nm}</h3>
+	<h1> Welcome to Products Page</h1>
+	<h3>${emp.getFirstName()}</h3>
+	<h3>${emp.getAge()}</h3>
 </body>
 </html>

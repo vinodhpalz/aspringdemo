@@ -8,5 +8,13 @@
 </head>
 <body>
 	<h1>Welcome to Spring Project - Home Page</h1>
+	<h3>${name}</h3>
+	
+	<form action="pc" method="post">
+	Name: <input type="text" name="firstName"/>
+	age: <input type="text" name="age"/>
+	<input type="submit" value="Submit"/>
+	
+	</form>
 </body>
 </html>
