@@ -3,12 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> Welcome to Products Page</h1>
-	<h3>${emp.getFirstName()}</h3>
-	<h3>${emp.getAge()}</h3>
+
+	<h1>Products Page</h1>
+	<h3>${name}</h3>
+	<h3>${age}</h3>
+
 </body>
 </html>
